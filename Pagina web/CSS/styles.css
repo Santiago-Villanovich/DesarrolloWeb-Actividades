@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+header {
+    background-color: #000821; /* Azul oscuro */
+    color: white;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    height: 0.2rem;
+    top: 0;
+    z-index: 4000001;
+}
+.header-menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 8%;
+}
+.header-notificacion{
+    display: flex;
+    width: 8%;
+    padding-left: 8px;
+}
+
+.header-user{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    justify-content: flex-end;
+    margin-left: 80%;
+}
+
+.logo{
+    width: 50px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+main {
+    padding: 20px;
+}
+#ContNoticias{
+    display:flex;
+    gap: 20px;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+#IMGnoticia img{
+    height: 300px;
+    width: 480px;
+    /*margin-left: 100px;*/
+    
+}
+#IMGinfluencer{
+    height: 360px;
+    width: 700px;
+    margin-left: 16%;
+}
+p{
+    width: 90%;
+    line-height: 1.8;
+}
+#hr1{
+    border: none; /* Quita el borde predeterminado */
+    height: 3px; /* Define el largo de la línea */
+    background-color: #000821;
+    width: 80%;
+}
+.masNoticias{
+    flex: 1;
+    border-color: darkcyan;
+    
+    border: 2px solid #000821;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar horizontalmente */
+    justify-content: center; /* Centrar verticalmente */
+    text-align: center;
+    border-radius: 8px;
+    padding: 6px;
+    width: 300px;
+}
+.masNoticias img{
+    width:97%;/* 300px;*/
+    height: 180px;
+    border-radius: 8px 8px 8px 8px;
+   
+}
+.masNoticias h3{
+    width:100%; /*300px;*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
+}
+
+#ContFinal{
+    background-color:#000821;
+    height: auto;
+    width: 100%;
+}
+#logoF{
+    width: 100px;
+    margin-left: 20PX;
+    margin-top: 20px;
+}
+#ContFinal h3{
+    color: aliceblue;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+#ContenedorLinks a{
+    color: aliceblue;
+    text-decoration: none;
+    display: flex;
+    margin-left: 38px;
+    margin-top: 6px;
+}
+#ContFinal h4{
+    color: aliceblue;
+    font-weight: 500;
+    margin-left: 30px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+
+#ContenedorFlex{
+    display: flex; /* Usa flexbox para alinear los elementos */
+   
+}
+
+
+#Listas{
+    display: flex;
+}
+li{
+    color: aliceblue;
+}
